@@ -9,22 +9,36 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "node-modules": "^1.0.1",
     "vue": "^2.6.14",
+    "vue-awesome": "^4.5.0",
+    "vue-axios": "^3.4.1",
+    "vue-carousel-3d": "^1.0.1",
     "vue-router": "^3.5.1",
+    "vue-sweetalert2": "^5.0.2",
+    "vuetify": "^2.6.3",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@fortawesome/fontawesome-free": "^6.0.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "axios": "^0.26.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "i": "^0.3.7",
+    "material-design-icons-iconfont": "^6.4.2",
+    "npm": "^8.5.2",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "vue-cli-plugin-axios": "~0.0.4",
+    "vue-cli-plugin-vuetify": "~2.4.6",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify-loader": "^1.7.0"
   }
 }
