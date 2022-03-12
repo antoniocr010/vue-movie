@@ -42,7 +42,7 @@ export default {
   methods: {
     async fetchUpcomingMovies() {
       const response = await this.$http.get(
-        'https://api.themoviedb.org/3/movie/upcoming?&api_key=6a5770b7d10a67d6445671f4b836afaa'
+        'https://api.themoviedb.org/3/movie/upcoming?&api_key='
       );
 
       this.upcomingMovies = response.data.results.slice(1, 6);
