@@ -32,7 +32,7 @@ export default {
     this.fetchGenres();
     try {
       const respo = await this.$http.get(
-        '/movie/popular?&api_key=6a5770b7d10a67d6445671f4b836afaa'
+        '/movie/popular?&api_key='
       );
       this.movies = respo.data.results;
     } catch (erro) {
@@ -43,7 +43,7 @@ export default {
     async fetchGenres() {
       try {
         const resp = await this.$http.get(
-          '/genre/movie/list?&api_key=6a5770b7d10a67d6445671f4b836afaa'
+          '/genre/movie/list?&api_key='
         );
         this.genres = resp.data.genres;
       } catch (erro) {
