@@ -36,7 +36,7 @@ yarn install
 
 ### Getting started
 
-1.Get your API-Key=? at https://www.themoviedb.org/
+1.Get your Token and API-Key=? at https://www.themoviedb.org/
 and the authentication token
 2.add auth token in services folder
 3.Run npm run serve to start the web application
