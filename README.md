@@ -12,9 +12,6 @@ Vuex
 Vuetify
 Awesome
 
-Clone this repo using git clone git@github.com:ricardovasconcelos/Vueflix.git
-Move yourself to the appropriate directory: cd vueflix
-
 # Dependencies
 
 install dependencies
